@@ -5,7 +5,7 @@ pipeline{
        jdk 'Java'
    }
     environment {
-        dockerhub=credentials('dockerhub')
+        dockerhub=credentials('dockernet')
         
     }
     stages{
